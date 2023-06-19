@@ -39,9 +39,11 @@ const Profile = () => {
         <a href="/" >
             First App Home
         </a>
+        <p>
         <a href="https://main.d34eh06l5tx17c.amplifyapp.com/profile" >
             Second App Profile Page
         </a>
+        </p>
         <p>
           Below is the information from your ID token which was obtained during the &nbsp;
           <a href="https://developer.okta.com/docs/guides/implement-auth-code-pkce">PKCE Flow</a>
