@@ -37,7 +37,10 @@ const Profile = () => {
           {' '}
         </Header>
         <a href="/" >
-            Home
+            First App Home
+        </a>
+        <a href="https://main.d34eh06l5tx17c.amplifyapp.com/profile" >
+            Second App Profile Page
         </a>
         <p>
           Below is the information from your ID token which was obtained during the &nbsp;
