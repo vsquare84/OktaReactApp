@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <Security oktaAuth={oktaAuth} restoreOriginalUri={this.restoreOriginalUri}>
         <Route path="/" exact={true} component={Home}/>
-        <Route path="/authorization-code/callback" component={LoginCallback}/>
+        <Route path="/login/callback" component={LoginCallback}/>
         <SecureRoute path="/profile" component={Profile}/>
       </Security>
     );
