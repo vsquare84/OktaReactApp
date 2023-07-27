@@ -8,7 +8,7 @@ import Profile from './Profile';
 const oktaAuth = new OktaAuth({
   issuer: 'https://dev-37528899.okta.com/oauth2/ausa0n6ndw8mJ0Eeb5d7',
   clientId: '0oaa0mzbpemlD0UzI5d7',
-  redirectUri: window.location.origin + '/login/callback'
+  redirectUri: window.location.origin + '/authorization-code/callback'
 });
 
 class App extends Component {
@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <Security oktaAuth={oktaAuth} restoreOriginalUri={this.restoreOriginalUri}>
         <Route path="/" exact={true} component={Home}/>
-        <Route path="/login/callback" component={LoginCallback}/>
+        <Route path="/authorization-code/callback" component={LoginCallback}/>
         <SecureRoute path="/profile" component={Profile}/>
       </Security>
     );
