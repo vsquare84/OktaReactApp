@@ -40,7 +40,7 @@ const Profile = () => {
             First App Home
         </a>
         <p>
-        <a href="https://main.d34eh06l5tx17c.amplifyapp.com/profile" >
+        <a href="https://main.du60g6xkjzkfq.amplifyapp.com/profile" >
             Second App Profile Page
         </a>
         </p>
